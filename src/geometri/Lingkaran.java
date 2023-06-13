@@ -8,7 +8,7 @@ public class Lingkaran {
     }
     
     double setLuas(){
-       return 3.14*bil1;
+       return 3.14* Math.pow(bil1, 2);
    }
      double setKeliling(){
        return 2*3.14*bil1;
